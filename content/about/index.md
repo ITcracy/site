@@ -1,57 +1,61 @@
 ---
 description: ''
 sidebar: 'about'
-next: '/about/installation/'
+next: '/about/automation/'
 ---
 
-# Introduction
+# About us
 
-Docc is a starter theme for [Gridsome](https://gridsome.org/) which is a static site generator powered by Vue. It allows you to quickly start writing your technical documentation for any kind of project.
+</br>
+</br>
 
-## Fast by default
+![About](../../src/assets/about_hero.svg)
 
-This is the catchphrase of Gridsome and true in any sense of the word. Static site generators output plain html files and have other great features like image processing and lazy-loading. After Serving the initial html, Gridsome site turn into a snappy single page application.
+</br>
+</br>
+We are a team of expert Python Developers with experience in automating processes as well as web application development.
 
-If I may quote Gridsome themselves:
+</br>
+</br>
 
-> Gridsome builds ultra performance into every page automatically. You get code splitting, asset optimization, progressive images, and link prefetching out of the box. With Gridsome you get almost perfect page speed scores by default.
+---
 
-In combination with [Netlify](https://www.netlify.com/) this theme gives you a perfect Lighthouse score out of the box.
+</br>
+</br>
 
-## Simple Navigation
+![Automation](../../src/assets/automation.svg)
 
-Any good documentation has great navigation. This theme has support for an organized sidebar fore cross-page navigation as well as an autmatic generated table of contents for each page in your documentation.
 
-## Search
+With 10+ years of experience in Python, we can automate any process and save your time and cost.
 
-The search component which is shipped with this theme, automatically indexes all headlines in your markdown pages and provides instant client side search powered by [Fuse.js](https://fusejs.io/).
+> We automate processes using [Python](https://www.python.org/) which is a free and open source     language to build robust high quality softwares. We do not use 3rd party softwares which may or may   not be able to fullfill a user's custom requirements.
 
-## Dark Mode
-
-This seems to be a must have for any site in current year. Click the icon at the top of the page and try it out for yourself!
-
-## TailwindCSS
-
-This starter uses [TailwindCSS](https://tailwindcss.com/) for layout and styling. You can easily configure it by editing the `tailwind.config.js` file. [PurgeCSS](https://purgecss.com/) is included as well to keep the bundle size as low as possible and the website fast and snappy!
-
-### Changing Colors
-
-The most inportant colors are defined in the `src/layouts/Default.vue` file at the top of the `style` block via CSS variables. If you want to change the primary color to orange for example, you would simply touch that value there.
-
-```css
-:rrot {
-  --color-ui-primary: theme('colors.orange.600');
-}
+```python
+import process
+if __name__ == '__main__':
+    process.run()
 ```
 
-## Make it your own
+## Our team
 
-Of course this is just a starter to quickly get you going. After downloading and installing you can do whatever you want with this theme. Check out the `src` folder and take a look at the components.
+![Navin](../../src/assets/navin.svg)
 
-Docc uses [TailwindCSS](https://tailwindcss.com/). Colors and spacing can easily configured. To change the accent color, you only need to touch a single line in the code.
 
-Don't like how something was designed or implemented? Just change the code and **make it your way**.
+### Navin
 
-### Contribute
+[Navin](https://navinkarkera.github.io/) is a passionate programmer with more than 5 years of experience.
 
-If you find any spelling mistakes or have improvements to offer, I am open to anyone who has ideas and wants to contribute to this starter theme.
+### Ishan
+[Ishan](https://imasdekar.gitlab.io/) is a creative IT professional with passion for developing software.
+
+
+## Our development stack
+
+```python
+"Python": Backend,
+"Vue": Frontend,
+"Postgresql": Database,
+"Docker": Deployment Environment,
+"Prefect": Workflow,
+"And many more depending on requirement"
+```

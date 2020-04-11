@@ -6,7 +6,7 @@
     class="relative"
   >
     <label class="relative block">
-      <span class="sr-only">Search in the Website</span>
+      <span class="sr-only">Search</span>
       <div class="absolute inset-y-0 left-0 flex items-center justify-center px-3 py-2 opacity-50">
         <SearchIcon size="1.25x" class="text-ui-typo" />
       </div>
@@ -16,7 +16,7 @@
         :value="query"
         class="block w-full py-2 pl-10 pr-4 border-2 rounded-lg bg-ui-sidebar border-ui-sidebar focus:bg-ui-background"
         :class="{'rounded-b-none': showResult,}"
-        placeholder="Search in the Website..."
+        placeholder="Search"
         @focus="focused = true"
         @blur="focused = false"
         @input="focusIndex = -1; query = $event.target.value"

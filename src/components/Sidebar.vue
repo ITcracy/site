@@ -90,6 +90,6 @@ export default {
     findPages(links) {
       return links.map(link => this.pages.find(page => page.path === link));
     }
-  },  
+  },
 };
 </script>

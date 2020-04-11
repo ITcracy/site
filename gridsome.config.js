@@ -10,10 +10,10 @@ module.exports = {
     favicon: './src/assets/favicon.png',
     touchicon: './src/assets/apple-touch-icon.png'
   },
-  siteUrl: (process.env.SITE_URL ? process.env.SITE_URL : 'https://example.com'),
+  siteUrl: (process.env.SITE_URL ? process.env.SITE_URL : 'https://itcracy.com'),
   settings: {
-    gitlab : process.env.URL_GITLAB || true,
-    github: process.env.URL_GITHUB || true,
+    gitlab : process.env.URL_GITLAB || 'https://gitlab.com/itcracy',
+    github: process.env.URL_GITHUB || 'https://github.com/ITcracy',
     nav: {
       links: [
         { path: '/about/', title: 'About' }
@@ -27,7 +27,7 @@ module.exports = {
             title: 'Getting Started',
             items: [
               '/about/',
-              '/about/installation/',
+              '/about/automation/',
               '/about/writing-content/',
               '/about/deploying/',
             ]
