@@ -51,7 +51,7 @@ if __name__ == '__main__':
 
 ## Our team
 
-![Navin](../../src/assets/navin.svg)
+![Team](../../src/assets/team.svg)
 
 
 ### Navin
