@@ -106,8 +106,8 @@ export default {
   },
 
   metaInfo() {
-    const title = 'Freedom in IT';
-    const description = 'For The People By The Developers';
+    const title = 'Automation for everyone';
+    const description = 'Process automation, Website development, Web Application, Custom software.';
 
     return {
       title: title,
