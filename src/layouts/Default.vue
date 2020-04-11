@@ -302,7 +302,7 @@ table {
 }
 
 .sidebar {
-  @apply fixed bg-ui-background px-4 inset-x-0 bottom-0 w-full border-r border-ui-border overflow-y-auto transition-all z-40;
+  @apply fixed bg-ui-background px-4 inset-x-0 bottom-0 w-full border-r border-ui-border overflow-y-auto transition-all z-20;
   transform: translateX(-100%);
 
   &.open {
@@ -310,7 +310,7 @@ table {
   }
 
   @screen lg {
-    @apply w-1/4 px-0 bg-transparent top-0 bottom-auto inset-x-auto sticky z-0;
+    @apply w-1/6 px-0 bg-transparent top-0 bottom-auto inset-x-auto sticky z-0;
     transform: translateX(0);
   }
 }

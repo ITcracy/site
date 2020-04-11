@@ -10,7 +10,7 @@
         </div>
         <h3 class="text-2xl text-center lg:text-3xl">
           Automation for everyone
-      </h3>
+        </h3>
         <p class="text-xl font-medium text-center">
           A team specializing in automation using Python and other sophisticated technologies
           <br>
@@ -52,7 +52,7 @@
             Application Development
           </h3>
           <p class="text-lg text-left">
-            All headlines are indexed. Instant search powered by Fuse.js. Find what you are looking for in the <span class="border-b border-dashed border-ui-primary text-ui-primary">blink of an eye</span>.
+            Get beautiful, clean and fast web application for your work
           </p>
         </div>
 
@@ -62,18 +62,36 @@
             Training
           </h3>
           <p class="text-lg text-left">
-            Working late at night again? Enable reading mode with the click of a button.
+            Want us to train your team in Python?<span class="border-b border-dashed border-ui-primary text-ui-primary"><br>Contact us.</span>
           </p>
         </div>
       </div>
 
+      <div class="pt-8 mx-auto mt-8 border-t md:mt-16 md:pt-16 border-top border-ui-border max-w-screen-sm"></div>
+
+      <h3 class="font-bold tracking-wide uppercase text-center lg:text-3xl">
+        Contact us:
+      </h3>
+      <div class="flex flex-wrap items-center">
+        <div class="flex flex-col items-center w-full px-6 mb-8 text-center md:w-1/2">
+          <MailIcon size="2x" class="mb-6 text-ui-primary" />
+          <a href="mailto:itcracy@disroot.org" class="text-ui-primary">itcracy@disroot.org</a>
+        </div>
+        <div class="flex flex-col items-center w-full px-6 mb-8 text-center md:w-1/2">
+          <PhoneCallIcon size="2x" class="mb-6 text-ui-primary" />
+          <div class="flex flex-wrap items-center">
+            <a href="tel:+918655861306" class="text-ui-primary">Navin</a> &nbsp|&nbsp
+            <a href="tel:+918082686033" class="text-ui-primary">Ishan</a>
+          </div>
+        </div>
+      </div>
     </div>
   </Layout>
 </template>
 
 <script>
 import Logo from '@/components/Logo';
-import { ArrowRightCircleIcon, BarChart2Icon, CodeIcon, PenToolIcon } from 'vue-feather-icons';
+import { ArrowRightCircleIcon, BarChart2Icon, CodeIcon, PenToolIcon, MailIcon, PhoneCallIcon } from 'vue-feather-icons';
 
 export default {
   components: {
@@ -82,7 +100,9 @@ export default {
     BarChart2Icon,
     CodeIcon,
     PenToolIcon,
-    CodeIcon
+    CodeIcon,
+    MailIcon,
+    PhoneCallIcon
   },
 
   metaInfo() {

@@ -5,7 +5,7 @@ prev: '/about/'
 next: '/about/writing-content/'
 ---
 
-# Installation
+# Automation
 
 There are several ways to to install this theme.
 
