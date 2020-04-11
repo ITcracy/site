@@ -24,19 +24,17 @@ module.exports = {
         name: 'about',
         sections: [
           {
-            title: 'Getting Started',
+            title: 'Who are we',
             items: [
               '/about/',
-              '/about/automation/',
-              '/about/writing-content/',
-              '/about/deploying/',
             ]
           },
           {
-            title: 'Configuration',
+            title: 'What We Do',
             items: [
-              '/about/settings/',
-              '/about/sidebar/',
+              '/about/automation/',
+              '/about/apps-development/',
+              '/about/training/'
             ]
           }
         ]

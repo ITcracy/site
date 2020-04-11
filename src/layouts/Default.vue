@@ -134,10 +134,10 @@ export default {
 }
 
 html[lights-out] {
-    --color-ui-background: theme('colors.orange.100');
-    --color-ui-typo: theme('colors.black.500');
-    --color-ui-sidebar: theme('colors.gray.300');
-    --color-ui-border: theme('colors.gray.800');
+    --color-ui-background: theme('colors.orange.200');
+    --color-ui-typo: theme('colors.black');
+    --color-ui-sidebar: theme('colors.white');
+    --color-ui-border: theme('colors.black');
     --color-ui-primary: theme('colors.indigo.600');
 
   pre[class*="language-"],

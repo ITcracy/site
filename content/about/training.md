@@ -1,11 +1,11 @@
 ---
 description: ''
 sidebar: 'about'
-prev: '/about/writing-content/'
-next: '/about/settings/'
+prev: '/about/apps-development/'
+
 ---
 
-# Deploying
+# Training
 
 Gridsome generates static files when running the `gridsome build` command. By default it outputs to the `dist` directory.
 Since these are simple HTML and JS files you only need a server which hosts these files.

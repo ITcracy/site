@@ -1,10 +1,11 @@
 ---
 description: ''
 sidebar: 'about'
-prev: '/about/settings/'
+prev: '/about/automation/'
+next: '/about/training/'
 ---
 
-# Sidebar
+# Application Development
 
 In order to have a sidebar visible on the side of the page (like on this one for example) or on mobile devices as an off-canvas navigation, you are required to do some global configuration, as well as some configuration per markdown file.
 
