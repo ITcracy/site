@@ -36,10 +36,10 @@ We are a team of expert Python Developers with experience in automating processe
 </br>
 </br>
 
-![Automation](../../src/assets/automation.svg)
+![Automation](../../src/assets/about_automation.svg)
 
 
-With 10+ years of experience in Python, we can automate any process and save your time and cost.
+With 11+ years of experience in Python, we can automate any process and save your time and cost.
 
 > We automate processes using [Python](https://www.python.org/) which is a free and open source     language to build robust high quality softwares. We do not use 3rd party softwares which may or may   not be able to fullfill a user's custom requirements.
 

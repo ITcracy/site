@@ -2,64 +2,75 @@
 description: ''
 sidebar: 'about'
 prev: '/about/'
-next: '/about/writing-content/'
+next: '/about/apps-development/'
 ---
 
 # Automation
 
-There are several ways to to install this theme.
+![Repetative Process](../../src/assets/automation_hero.svg)
 
-## Using the Gridsome CLI
+- **There are some tasks which are as simple as,**
 
-The easiest way to install this theme or a Gridsome theme in general is by using their CLI tool.
-
-If you don't already have it installed, simply run:
-
-```bash
-npm i -g @gridsome/cli
+```
+- File or folder operations like
+  moving copying thousands of files
+  or folders,
+- Filling out online forms,
+- Periodic downloading of files
+  or copying text from a website,
+- Sending periodic emails, etc.
 ```
 
-After that run `gridsome -v` to verify that the tool is working.
-
-If everything is working as expected, run the following command:
-
-```bash
-gridsome create your-project-name https://github.com/mrcrmn/docc
+- **Or can be as complex as,**
+```
+- Performing operations with
+  Excel spreadsheets,
+- Specific business process
+  in an organization,
+- Data consolidation from various
+  sources and/or generation
+  of some periodic reports,etc.
 ```
 
-This command creates a folder named `your-project-name` in your current working directory, clones the repository and automatically installs the dependencies.
+> All such tasks are `time-consuming` and they’re often so `trivial or specific` that there’s `no ready-made software` to perform them.
 
-If everything is downloaded and installed you can now run `npm run develop` which starts the development server and bundles all assets. After bootstrapping has finished, head to `http://localhost:8080` to view your freshly created site!
 
-## Installing manually
+***At `ITcracy` we provide provide cost effective solutions designed specific to the needs of user for all such tasks.***
 
-To install this theme manually you need to:
+## Want a Solution?
+> **If you feel that you do repetative, time consuming and boring tasks, then you can ease your work-life with the following 3 steps.**
 
-1. Clone the repository
-2. Install the dependencies
+![Repetative Process](../../src/assets/automation_steps.svg)
 
-To clone the repository simply run:
+### 1. Identify
 
-```bash
-git clone https://github.com/mrcrmn/docc.git
-```
+**Identify the exact task or process that you think can be automated.**
 
-After cloning the project, change to the project you just created.
 
-```bash
-cd docc
-```
 
-Now you only need to install the dependencies.
+You need to identify the process that is consuming most of your time or is repetative.
 
-Using npm:
-```bash
-npm install
-```
+It can be a process that a single user does or it can be a process that is done at an organizational level.
 
-Or by using yarn:
-```bash
-yarn
-```
+### 2. Write IT
+***No! Here we do not expect a technical document.***
 
-After all dependencies are installed you can now run `npm run develop` to start the development server!
+> You just have to write the entire process that you want to automate.
+
+>The write up should be something which will easily help in understanding the process.
+
+>It should contain just enough details and all the requirements involved in the process.
+
+>The requirements can be as simple as some **website urls, file names, period i.e. date & time, etc.**
+
+
+**Note:** This is an optional step and we suggest writing your process as it helps in better understanding of your own process.
+
+### 3. Connect With US
+**If your process cannot be automated we don't ask for money.**
+
+> Irrespective of whether you follow the first 2 steps you can always contact us.
+
+> If you are `unsure` whether your process/s os task/s can be automated then `contact us` and we will `help you identify` and if possible automate.
+
+**Note:** We don't chanrge if after anayizing your process we find that it cannot be automated. So feel free to connect with us.
