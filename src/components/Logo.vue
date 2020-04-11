@@ -9,7 +9,7 @@
        xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
        xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
        :width="getWidth" :height="getHeight"
-       viewBox="75 100 50 70"
+       viewBox="80 100 55 85"
        version="1.1"
        id="svg8"
        inkscape:version="0.92.3 (2405546, 2018-03-11)">
@@ -439,9 +439,8 @@
     AAAASUVORK5CYII=
     "
            style="image-rendering:optimizeQuality"
-           preserveAspectRatio="none"
-           height="74.347916"
-           width="41.539585" />
+           preserveAspectRatio="true"
+           width="70" height="85" />
       </g>
     </svg>
 
@@ -464,7 +463,7 @@ export default {
     },
 
     getHeight() {
-      return Math.ceil((this.getWidth / 48) * 48);
+      return Math.ceil((this.getWidth / 55) * 85);
     }
   }
 };
