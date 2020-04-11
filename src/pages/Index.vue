@@ -3,22 +3,22 @@
     <div class="pt-8 md:pt-16">
       <div class="flex flex-col items-center">
         <div class="flex flex-col items-center mb-2 text-ui-primary">
-          <Logo :width="80" />
+          <!-- <Logo :width="80" /> -->
           <h2 class="text-3xl text-6xl font-black tracking-tighter border-none">
             ITcracy
           </h2>
         </div>
-        <h1 class="text-4xl text-center lg:text-5xl">
+        <h3 class="text-2xl text-center lg:text-3xl">
           For The People By The Developers
-        </h1>
+      </h3>
         <p class="text-xl font-medium text-center">
-          Perfect Lighthouse score out of the box. Easy to set-up. Dark mode included.
+          A team specializing in automation using Python and other sophisticated technologies
           <br>
-          <strong class="text-ui-primary">Got a minute?</strong>
+          <!-- <strong class="text-ui-primary">Want to checkout how?</strong> -->
         </p>
 
         <div class="py-4">
-          <code class="block px-4 py-1 select-all bg-ui-border text-ui-typo">gridsome create your-project https://github.com/mrcrmn/docc</code>
+          <code class="block px-4 py-1 select-all bg-ui-border text-ui-primary">You have a process/task that you feel can be automated?</code>
         </div>
 
         <div class="flex justify-center mt-8">
