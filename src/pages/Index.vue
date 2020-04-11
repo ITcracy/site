@@ -9,30 +9,26 @@
           </h2>
         </div>
         <h3 class="text-2xl text-center lg:text-3xl">
-          For The People By The Developers
+          Automation for everyone
       </h3>
         <p class="text-xl font-medium text-center">
           A team specializing in automation using Python and other sophisticated technologies
           <br>
-          <!-- <strong class="text-ui-primary">Want to checkout how?</strong> -->
+          <strong class="text-ui-primary">Got a minute?</strong>
         </p>
-
-        <div class="py-4">
-          <code class="block px-4 py-1 select-all bg-ui-border text-ui-primary">You have a process/task that you feel can be automated?</code>
-        </div>
 
         <div class="flex justify-center mt-8">
           <g-link
             to="/about/"
             class="flex items-center px-6 py-4 ml-auto text-2xl font-bold leading-none text-white border rounded-lg shadow-lg bg-ui-primary border-ui-primary transition-all duration-200 ease-out transform hover:shadow-xl hover:-translate-y-1"
           >
-            Get started
+            Check out now
             <ArrowRightCircleIcon class="ml-4" size="1x" />
           </g-link>
         </div>
 
         <p class="mt-8 text-center">
-          Open Source. MIT License. <span class="border-b border-dashed border-ui-primary text-ui-primary">Make it your own</span>.
+          Fast, Easy and <span class="border-b border-dashed border-ui-primary text-ui-primary">Cost Effective</span>.
         </p>
 
       </div>
@@ -41,17 +37,17 @@
 
       <div class="flex flex-wrap justify-center -mx-4">
         <div class="flex flex-col items-center w-full px-4 mb-8 text-center md:w-1/3">
-          <ZapIcon size="3x" class="mb-6 text-ui-primary" />
+          <BarChart2Icon size="3x" class="mb-6 text-ui-primary" />
           <h3 class="font-bold tracking-wide uppercase text-ui-primary">
             Automation
           </h3>
           <p class="text-lg text-left">
-            Spending too much time on a TASK or PROCESS?<span class="border-b border-dashed border-ui-primary text-ui-primary"><br>We can AUTOMATE it.</span>.
+            Spending too much time on repetative task? Simple or complex.<span class="border-b border-dashed border-ui-primary text-ui-primary"><br>We can AUTOMATE it.</span>.
           </p>
         </div>
 
         <div class="flex flex-col items-center w-full px-4 mb-8 text-center md:w-1/3">
-          <SearchIcon size="3x" class="mb-6 text-ui-primary" />
+          <CodeIcon size="3x" class="mb-6 text-ui-primary" />
           <h3 class="font-bold tracking-wide uppercase text-ui-primary">
             Application Development
           </h3>
@@ -61,7 +57,7 @@
         </div>
 
         <div class="flex flex-col items-center w-full px-4 mb-8 text-center md:w-1/3">
-          <CoffeeIcon size="3x" class="mb-6 text-ui-primary" />
+          <PenToolIcon size="3x" class="mb-6 text-ui-primary" />
           <h3 class="font-bold tracking-wide uppercase text-ui-primary">
             Training
           </h3>
@@ -77,16 +73,16 @@
 
 <script>
 import Logo from '@/components/Logo';
-import { ArrowRightCircleIcon, ZapIcon, CodeIcon, CoffeeIcon, SearchIcon } from 'vue-feather-icons';
+import { ArrowRightCircleIcon, BarChart2Icon, CodeIcon, PenToolIcon } from 'vue-feather-icons';
 
 export default {
   components: {
     Logo,
     ArrowRightCircleIcon,
-    ZapIcon,
+    BarChart2Icon,
     CodeIcon,
-    CoffeeIcon,
-    SearchIcon
+    PenToolIcon,
+    CodeIcon
   },
 
   metaInfo() {

@@ -8,7 +8,7 @@ module.exports = {
   siteName: 'ITcracy',
   icon: {
     favicon: './src/assets/favicon.png',
-    touchicon: './src/assets/favicon.png'
+    touchicon: './src/assets/apple-touch-icon.png'
   },
   siteUrl: (process.env.SITE_URL ? process.env.SITE_URL : 'https://example.com'),
   settings: {
