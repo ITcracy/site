@@ -15,6 +15,19 @@ next: '/about/automation/'
 </br>
 We are a team of expert Python Developers with experience in automating processes as well as web application development.
 
+
+
+## Our development stack
+
+```python
+"Python": Backend,
+"Vue": Frontend,
+"Postgresql": Database,
+"Docker": Deployment Environment,
+"Prefect": Workflow,
+"And many more depending on requirement"
+```
+
 </br>
 </br>
 
@@ -47,15 +60,3 @@ if __name__ == '__main__':
 
 ### Ishan
 [Ishan](https://imasdekar.gitlab.io/) is a creative IT professional with passion for developing software.
-
-
-## Our development stack
-
-```python
-"Python": Backend,
-"Vue": Frontend,
-"Postgresql": Database,
-"Docker": Deployment Environment,
-"Prefect": Workflow,
-"And many more depending on requirement"
-```
