@@ -29,7 +29,7 @@ next: '/about/apps-development/'
   in an organization,
 - Data consolidation from various
   sources and/or generation
-  of some periodic reports,etc.
+  of some periodic reports, etc.
 ```
 
 > All such tasks are `time-consuming` and they’re often so `trivial or specific` that there’s `no ready-made software` to perform them.
@@ -66,11 +66,17 @@ It can be a process that a single user does or it can be a process that is done 
 
 **Note:** This is an optional step and we suggest writing your process as it helps in better understanding of your own process.
 
-### 3. Connect With US
-**If your process cannot be automated we don't ask for money.**
+### 3. Connect with us
+**If your process cannot be automated, you wont be charged**
+
+> Explain us the process, along with supporting documents if any.
+
+> We will check the feasibility and if it is possible to automate it, we will give you the approximate cost and time required to complete the task.
+
+> We will provide alternate options if the task is not suitable for automation.
 
 > Irrespective of whether you follow the first 2 steps you can always contact us.
 
-> If you are `unsure` whether your process/s os task/s can be automated then `contact us` and we will `help you identify` and if possible automate.
+> If you are `unsure` whether your process/s os task/s can be automated then `contact us` and we will `help you identify` and if possible automate it.
 
-**Note:** We don't chanrge if after anayizing your process we find that it cannot be automated. So feel free to connect with us.
+**Note:** We don't charge if after anayizing your process we find that it cannot be automated. So feel free to connect with us.

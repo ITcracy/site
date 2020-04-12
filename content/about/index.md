@@ -48,15 +48,3 @@ import process
 if __name__ == '__main__':
     process.run()
 ```
-
-## Our team
-
-![Team](../../src/assets/team.svg)
-
-
-### Navin
-
-[Navin](https://navinkarkera.github.io/) is a passionate programmer with more than 5 years of experience.
-
-### Ishan
-[Ishan](https://imasdekar.gitlab.io/) is a creative IT professional with passion for developing software.
