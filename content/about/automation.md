@@ -11,7 +11,7 @@ next: '/about/apps-development/'
 
 - **There are some tasks which are as simple as,**
 
-```
+```css
 - File or folder operations like
   moving copying thousands of files
   or folders,
@@ -22,7 +22,7 @@ next: '/about/apps-development/'
 ```
 
 - **Or can be as complex as,**
-```
+```css
 - Performing operations with
   Excel spreadsheets,
 - Specific business process
@@ -53,7 +53,7 @@ You need to identify the process that is consuming most of your time or is repet
 It can be a process that a single user does or it can be a process that is done at an organizational level.
 
 ### 2. Write IT
-***No! Here we do not expect a technical document.***
+**No! Here we do not expect a technical document.**
 
 > You just have to write the entire process that you want to automate.
 
@@ -67,7 +67,7 @@ It can be a process that a single user does or it can be a process that is done 
 **Note:** This is an optional step and we suggest writing your process as it helps in better understanding of your own process.
 
 ### 3. Connect with us
-**If your process cannot be automated, you wont be charged**
+**If your process cannot be automated, you won't be charged**
 
 > Explain us the process, along with supporting documents if any.
 
