@@ -8,7 +8,7 @@ module.exports = {
           typo: 'var(--color-ui-typo)',
           primary: 'var(--color-ui-primary)',
           border: 'var(--color-ui-border)'
-        }
+      },
       },
       spacing: {
         sm: '24rem'

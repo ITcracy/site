@@ -28,7 +28,7 @@
       <MenuIcon v-else />
     </button>
   </div>
-  <div class="pt-8 mx-auto mt-8 border-t border-top border-ui-border max-w-screen-sm"></div>
+  <div class="pt-4 mx-auto mt-4 border-t border-top border-ui-border max-w-screen-sm"></div>
 
   <footer class="flex flex-col">
     <h3 class="font-bold tracking-wide uppercase text-center lg:text-3xl">
@@ -145,7 +145,7 @@ export default {
     --color-ui-typo: theme('colors.gray.700');
     --color-ui-sidebar: theme('colors.gray.200');
     --color-ui-border: theme('colors.gray.300');
-    --color-ui-primary: theme('colors.indigo.600');
+    --color-ui-primary: theme('colors.indigo.800');
 }
 
 html[lights-out] {
@@ -153,7 +153,7 @@ html[lights-out] {
     --color-ui-typo: theme('colors.black');
     --color-ui-sidebar: theme('colors.white');
     --color-ui-border: theme('colors.black');
-    --color-ui-primary: theme('colors.indigo.600');
+    --color-ui-primary: theme('colors.indigo.800');
 
     pre[class*='language-'],
     code[class*='language-'] {
