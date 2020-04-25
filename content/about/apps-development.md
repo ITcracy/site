@@ -7,83 +7,33 @@ next: '/about/training/'
 
 # Application Development
 
-In order to have a sidebar visible on the side of the page (like on this one for example) or on mobile devices as an off-canvas navigation, you are required to do some global configuration, as well as some configuration per markdown file.
+In ITcracy we help organizations create their presence online by building `Websites`, `Web Applications` and `Mobile Applications` for them.
 
-## Global Configuration
-Open the `gridsome.config.js`. The configuration for the sidebar is located under `settings > sidebar`.
+![Website](../../src/assets/website.svg)
 
-```js
-// gridsome.config.js
-module.exports = {
-  // ...
-  settings: {
-    sidebar: []
-  },
-  // ...
-}
+## Want to get your business online!
+It can be as simple as a static website or as complex as an e-commerce platform.
+
+```python
+[
+  "Website to advertise your services",
+  "A NGO hoping to get some donation by showing their deeds.",
+  "A product company wanting to sell products online",
+  "A business wanting to configure process through user interface",
+  "And many more.."
+]
 ```
 
-Please note that the sidebar option is an array, since you can define multiple sidebars for different sections of your website. For example you might have a sidebar for your guide and another one for your Api reference.
+## The Process
 
-### The Sidebar Config Object
+We follow below simple steps to build websites
 
-A single item in this array needs to have the following properties:
-- `name`: The identifier of the sidebar. This will be referenced in your markdown frontmatter.
-- `sections`: The sidebar is divided into several sections. On this page we have **Getting Started** and **Configuration**
+- You contact us with a requirement of static, dynamic website or web application.
+- We analyze the requirements and come up with a proposal of estimate time and cost involved.
+- We send you some example themes from which you can choose.
+- After you complete advance payment, we start development.
+- We will keep you updated with the progress in stages with demo of the website.
+- After the final demo and your final payment, the website will be live.
 
-```js
-// gridsome.config.js
-module.exports = {
-  // ...
-  settings: {
-    sidebar: [
-      name: 'docs',
-      sections: []
-    ]
-  },
-  // ...
-}
-```
 
-An item for the `sections` array might look like this:
-
-```js
-// gridsome.config.js
-module.exports = {
-  // ...
-  settings: {
-    sidebar: [
-      name: 'docs',
-      sections: [
-        {
-          title: 'Getting Started',
-          items: [
-            '/docs/',
-            '/docs/installation/',
-            '/docs/writing-content/',
-          ]
-        },
-      ]
-    ]
-  },
-  // ...
-}
-```
-
-As you can see, we need a `title` for the sections, as well as an array of `items` which are the links to the given pages.
-
-The sidebar performs a static query to get all pages. This is how we automatically put the title of the given page in the sidebar.
-
-## Frontmatter setup
-
-After your global configuration is all done, we only need to tell the markdown page which sidebar to use.
-
-In order to do that we simply reference the `name` of the sidebar in our frontmatter:
-
-```md
----
-sidebar: 'docs'
----
-
-# I use the docs sidebar
-```
+**Please note that you can contact us even if you are not sure whether a web application is suitable for your process or not.**
