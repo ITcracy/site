@@ -7,7 +7,7 @@ next: '/about/training/'
 
 # Application Development
 
-In ITcracy we help organizations create their presence online by building `Websites`, `Web Applications` and `Mobile Applications` for them.
+> In ITcracy we help organizations create their presence online by building `Websites`, `Web Applications` and `Mobile Applications` for them.
 
 ![Website](../../src/assets/website.svg)
 

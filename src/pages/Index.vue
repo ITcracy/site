@@ -11,11 +11,13 @@
             <h3 class="text-2xl text-center lg:text-3xl">
                 Automation for everyone
             </h3>
-            <p class="text-xl font-medium text-center">
-                A team specializing in automation using Python and other sophisticated technologies
+            <h3 class="text-xl font-medium text-center">
+                A team specializing in automation using
+                <br>
+                Python and other sophisticated <span class="text-ui-primary">Free and Open Source Softwares.</span>
                 <br>
                 <strong class="text-ui-primary">Got a minute?</strong>
-            </p>
+            </h3>
 
             <div class="flex justify-center mt-8">
                 <g-link to="/about/"
@@ -36,28 +38,28 @@
         <div class="flex flex-wrap justify-center -mx-4">
             <div class="flex flex-col items-center w-full px-4 mb-8 text-center md:w-1/3">
                 <BarChart2Icon size="3x" class="mb-6 text-ui-primary" />
-                <h3 class="font-bold  uppercase text-ui-primary">
+                <p class="font-bold  uppercase text-ui-primary">
                     <g-link to="/about/automation/"
                         class="flex items-center px-2 py-1 ml-auto font-bold leading-none text-white border rounded-lg shadow-lg bg-ui-primary border-ui-primary transition-all duration-200 ease-out transform hover:shadow-xl hover:-translate-y-1">
                         Automation
                         <ArrowRightCircleIcon class="ml-4" size="1x" />
                     </g-link>
 
-                </h3>
+                </p>
                 <p class="text-lg text-center">
-                    Spending too much time on repetative task? Simple or complex.<span class="border-b border-dashed border-ui-primary text-ui-primary"><br>We can AUTOMATE it.</span>
+                    Spending too much time on repetitive task? Simple or complex.<span class="border-b border-dashed border-ui-primary text-ui-primary"><br>We can AUTOMATE it.</span>
                 </p>
             </div>
 
             <div class="flex flex-col items-center w-full px-4 mb-8 text-center md:w-1/3">
                 <CodeIcon size="3x" class="mb-6 text-ui-primary" />
-                <h3 class="font-bold tracking-wide uppercase text-ui-primary">
+                <p class="font-bold tracking-wide uppercase text-ui-primary">
                     <g-link to="/about/apps-development/"
                         class="flex items-center px-2 py-1 ml-auto font-bold leading-none text-white border rounded-lg shadow-lg bg-ui-primary border-ui-primary transition-all duration-200 ease-out transform hover:shadow-xl hover:-translate-y-1">
-                        Application Development
+                        Web App Development
                         <ArrowRightCircleIcon class="ml-4" size="1x" />
                     </g-link>
-                </h3>
+                </p>
                 <p class="text-lg text-center">
                     Want beautiful, clean and fast web application for your work?
                     <span class="border-b border-dashed border-ui-primary text-ui-primary"><br>We can BUILD it.</span>
@@ -66,15 +68,15 @@
 
             <div class="flex flex-col items-center w-full px-4 mb-8 text-center md:w-1/3">
                 <PenToolIcon size="3x" class="mb-6 text-ui-primary" />
-                <h3 class="font-bold tracking-wide uppercase text-ui-primary">
+                <p class="font-bold tracking-wide uppercase text-ui-primary">
                     <g-link to="/about/training/"
                         class="flex items-center px-2 py-1 ml-auto font-bold leading-none text-white border rounded-lg shadow-lg bg-ui-primary border-ui-primary transition-all duration-200 ease-out transform hover:shadow-xl hover:-translate-y-1">
                         Training
                         <ArrowRightCircleIcon class="ml-4" size="1x" />
                     </g-link>
-                </h3>
+                </p>
                 <p class="text-lg text-center">
-                    Want us to train your team in Python or other technologies?<span class="border-b border-dashed border-ui-primary text-ui-primary"><br>Contact us.</span>
+                    You and your team wants to learn Python or other technologies?<span class="border-b border-dashed border-ui-primary text-ui-primary"><br>We can Teach it.</span>
                 </p>
             </div>
         </div>
@@ -87,7 +89,7 @@
         <div class="flex justify-center flex-wrap">
             <div class="w-48 m-4 mx-auto py-2 bg-blue shadow-lg">
                 <img class="mx-auto rounded-full" src="../assets/navin.png" />
-                <p class="mx-2 mt-2 text-center text-lg text-gray-700 font-semibold">Navin Karkera</p>
+                <u><p class="mx-2 mt-2 text-center text-lg text-ui-primary font-semibold">Navin Karkera</p></u>
                 <div class="flex justify-center px-2 sm:px-4">
 
                     <a href="https://github.com/navinkarkera/" class="sm:ml-3" target="_blank" rel="noopener noreferrer" title="Github" name="Github">
@@ -105,7 +107,7 @@
 
             <div class="w-48 m-4 mx-auto py-2 bg-blue shadow-lg">
                 <img class="mx-auto rounded-full" src="../assets/ishan.jpg" />
-                <p class="mx-2 mt-2 text-center text-lg text-gray-700 font-semibold">Ishan Masdekar</p>
+                <u> <p class="mx-2 mt-2 text-center text-lg text-ui-primary font-semibold">Ishan Masdekar</p></u>
                 <div class="flex justify-center px-2 sm:px-4">
 
                     <a href="https://github.com/imasdekar" class="sm:ml-3" target="_blank" rel="noopener noreferrer" title="Github" name="Github">
@@ -125,7 +127,9 @@
             <u class="text-ui-primary">What people say about us</u>
         </h3>
         <div class="flex justify-center p-2 sm:px-4 flex-wrap">
-            <Testinomials v-for="client in clients" :clientName="client.clientName" :companyName="client.companyName" :clientPic="getImgUrl(client.clientPic)" :testinomialText="client.testinomialText" :clientUrl="client.clientUrl" />
+            <Testimonials v-for="client in clients"
+            :key="`${client}`"
+            :clientName="client.clientName" :companyName="client.companyName" :clientPic="getImgUrl(client.clientPic)" :testimonialText="client.testimonialText" :clientUrl="client.clientUrl" />
         </div>
     </div>
 </Layout>
@@ -133,7 +137,7 @@
 
 <script>
 import Logo from '@/components/Logo'
-import Testinomials from '@/components/Testinomials'
+import Testimonials from '@/components/Testimonials'
 import {
     ArrowRightCircleIcon,
     BarChart2Icon,
@@ -153,20 +157,22 @@ export default {
                     clientName: "Jeremy Ravenel",
                     companyName: "CashStory",
                     clientPic: "superman.svg",
-                    testinomialText: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores deserunt ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis pariatur minus consequuntur!",
+                    testimonialText: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores deserunt ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis pariatur minus consequuntur!",
                     clientUrl: "https://cashstory.com/"
                 },
                 {
                     clientName: "Deepali Vandana",
                     companyName: "Urja",
                     clientPic: "superwoman.svg",
-                    testinomialText: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores deserunt ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis pariatur minus consequuntur!",
+                    testimonialText: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores deserunt ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis pariatur minus consequuntur!",
+                    clientUrl: "",
                 },
                 {
                     clientName: "Chandan Kumar",
                     companyName: "Working Peoples' Charter",
                     clientPic: "superman.svg",
-                    testinomialText: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores deserunt ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis pariatur minus consequuntur!",
+                    testimonialText: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores deserunt ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis pariatur minus consequuntur!",
+                    clientUrl: "",
                 }
             ]
         }
@@ -183,7 +189,7 @@ export default {
         GithubIcon,
         GitlabIcon,
         LinkedinIcon,
-        Testinomials
+        Testimonials
     },
 
     metaInfo() {

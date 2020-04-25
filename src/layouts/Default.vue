@@ -141,24 +141,22 @@ export default {
 
 <style lang="scss">
 :root {
-    --color-ui-background: theme('colors.white');
-    --color-ui-typo: theme('colors.gray.700');
-    --color-ui-sidebar: theme('colors.gray.200');
-    --color-ui-border: theme('colors.gray.300');
-    --color-ui-primary: theme('colors.indigo.800');
+  --color-ui-background: theme('colors.white');
+  --color-ui-typo: theme('colors.gray.700');
+  --color-ui-sidebar: theme('colors.gray.200');
+  --color-ui-border: theme('colors.gray.300');
+  --color-ui-primary: theme('colors.indigo.600');
 }
-
 html[lights-out] {
-    --color-ui-background: theme('colors.orange.200');
-    --color-ui-typo: theme('colors.black');
-    --color-ui-sidebar: theme('colors.white');
-    --color-ui-border: theme('colors.black');
-    --color-ui-primary: theme('colors.indigo.800');
-
-    pre[class*='language-'],
-    code[class*='language-'] {
-        @apply bg-ui-border;
-    }
+  --color-ui-background: theme('colors.gray.800');
+  --color-ui-typo: theme('colors.gray.100');
+  --color-ui-sidebar: theme('colors.gray.700');
+  --color-ui-border: theme('colors.gray.700');
+  --color-ui-primary: theme('colors.blue.700');
+  pre[class*="language-"],
+  code[class*="language-"] {
+    @apply bg-ui-border;
+  }
 }
 
 * {
