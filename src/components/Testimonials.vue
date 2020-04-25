@@ -7,7 +7,7 @@
             <a v-if="!clientUrl" ><h2 class="text-white text-3xl font-semibold">{{companyName}}</h2></a>
             <a v-else :href="clientUrl" target="_blank"><h2 class="text-white text-3xl font-semibold">{{companyName}}</h2></a>
             <div class="pt-8  border-t border-top border-ui-border "></div>
-            <p class="mt-2 text-white">{{testinomialText}}
+            <p class="mt-2 text-white">{{testimonialText}}
             </p>
         </div>
         <div class="flex justify-end mt-4">
@@ -29,7 +29,7 @@ export default {
             type: String,
             default: ""
         },
-        testinomialText: {
+        testimonialText: {
             type: String,
             default: ""
         },

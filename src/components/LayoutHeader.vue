@@ -44,7 +44,7 @@
 
           <ToggleDarkMode class="ml-2 sm:ml-8">
             <template slot="default" slot-scope="{ dark }">
-              <CoffeeIcon v-if="dark" size="1.5x" />
+              <MoonIcon v-if="dark" size="1.5x" />
               <SunIcon v-else size="1.5x" />
             </template>
           </ToggleDarkMode>
@@ -76,7 +76,7 @@ query {
 <script>
 import ToggleDarkMode from "@/components/ToggleDarkMode";
 import Logo from '@/components/Logo';
-import { SunIcon, CoffeeIcon, GithubIcon, GitlabIcon } from "vue-feather-icons";
+import { SunIcon, MoonIcon, GithubIcon, GitlabIcon } from "vue-feather-icons";
 
 const Search = () => import(/* webpackChunkName: "search" */ "@/components/Search").catch(error => console.warn(error));
 
@@ -86,7 +86,7 @@ export default {
     Search,
     ToggleDarkMode,
     SunIcon,
-    CoffeeIcon,
+    MoonIcon,
     GithubIcon,
     GitlabIcon,
 
