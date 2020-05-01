@@ -89,7 +89,9 @@
         <div class="flex justify-center flex-wrap">
             <div class="w-48 m-4 mx-auto py-2 bg-blue shadow-lg">
                 <img class="mx-auto rounded-full" src="../assets/navin.png" />
-                <u><p class="mx-2 mt-2 text-center text-lg text-ui-primary font-semibold">Navin Karkera</p></u>
+                <u>
+                    <p class="mx-2 mt-2 text-center text-lg text-ui-primary font-semibold">Navin Karkera</p>
+                </u>
                 <div class="flex justify-center px-2 sm:px-4">
 
                     <a href="https://github.com/navinkarkera/" class="sm:ml-3" target="_blank" rel="noopener noreferrer" title="Github" name="Github">
@@ -107,7 +109,9 @@
 
             <div class="w-48 m-4 mx-auto py-2 bg-blue shadow-lg">
                 <img class="mx-auto rounded-full" src="../assets/ishan.jpg" />
-                <u> <p class="mx-2 mt-2 text-center text-lg text-ui-primary font-semibold">Ishan Masdekar</p></u>
+                <u>
+                    <p class="mx-2 mt-2 text-center text-lg text-ui-primary font-semibold">Ishan Masdekar</p>
+                </u>
                 <div class="flex justify-center px-2 sm:px-4">
 
                     <a href="https://github.com/imasdekar" class="sm:ml-3" target="_blank" rel="noopener noreferrer" title="Github" name="Github">
@@ -126,11 +130,16 @@
         <h3 class="font-bold tracking-wide uppercase text-center lg:text-3xl">
             <u class="text-ui-primary">What people say about us</u>
         </h3>
-        <div class="flex justify-center p-2 sm:px-4 flex-wrap">
-            <Testimonials v-for="client in clients"
-            :key="`${client}`"
-            :clientName="client.clientName" :companyName="client.companyName" :clientPic="getImgUrl(client.clientPic)" :testimonialText="client.testimonialText" :clientUrl="client.clientUrl" />
-        </div>
+
+        <carousel paginationPosition="bottom-overlay" :perPageCustom="slidePerPageCustom" autoplay="true" loop="true" autoplayTimeout="8000" paginationColor="#000000" paginationActiveColor="#FCFE13">
+            <slide v-for="client in clients" :key="`${client}`">
+                <div class="flex justify-center flex-wrap">
+                <Testimonials :clientName="client.clientName" :companyName="client.companyName" :clientPic="getImgUrl(client.clientPic)" :testimonialText="client.testimonialText" :clientUrl="client.clientUrl" />
+            </div>
+            </slide>
+        </carousel>
+
+
     </div>
 </Layout>
 </template>
@@ -153,6 +162,10 @@ import {
 export default {
     data() {
         return {
+            slidePerPageCustom: [
+                [200, 1],
+                [1199, 2]
+            ],
             clients: [{
                     clientName: "Jeremy Ravenel",
                     companyName: "CashStory",

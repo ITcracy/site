@@ -7,6 +7,10 @@ next: '/about/apps-development/'
 
 # Automation
 
+> ***Automation*** can substantially help in reducing cost and increasing profitability.
+
+> At ITcracy we help people reduce their efforts spent on repetitive manual work and focus more on the actual tasks that help grow the business.
+
 ![Automation](../../src/assets/automation_hero.svg)
 
 ### Why automate?
@@ -37,7 +41,7 @@ next: '/about/apps-development/'
 > All such tasks are `time-consuming`, and they’re often so `trivial or specific` that there’s `no ready-made software` to perform them.
 
 
-***At `ITcracy` we provide cost effective solutions designed specific to the needs of user for all such tasks.***
+***At `ITcracy` we provide cost effective solutions designed specific to the needs of user for all their requirements.***
 
 ## Want a Solution?
 > **If you feel that you do repetitive, time-consuming and boring tasks, then you can ease your work-life with the following 3 steps.**
