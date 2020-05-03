@@ -37,7 +37,7 @@
     <div class="flex flex-wrap items-center">
       <div class="flex flex-col items-center w-full px-6 mb-8 text-center md:w-1/2">
         <MailIcon size="2x" class="mb-6 text-ui-primary" />
-        <a href="mailto:itcracy@disroot.org" class="text-ui-primary">itcracy@disroot.org</a>
+        <a href="mailto:info@itcracy.com" class="text-ui-primary">info@itcracy.com</a>
       </div>
       <div class="flex flex-col items-center w-full px-6 mb-8 text-center md:w-1/2">
         <PhoneCallIcon size="2x" class="mb-6 text-ui-primary" />

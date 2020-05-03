@@ -26,7 +26,7 @@ It can be as simple as a static website or as complex as an e-commerce platform.
 
 ## The Process
 
-We follow below simple steps to build websites
+We follow below simple steps to build websites and applications,
 
 - You contact us with a requirement of static, dynamic website or web application.
 - We analyze the requirements and come up with a proposal of estimate time and cost involved.
