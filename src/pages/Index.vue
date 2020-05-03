@@ -130,21 +130,16 @@
         <h3 class="font-bold tracking-wide uppercase text-center lg:text-3xl">
             <u class="text-ui-primary">What people say about us</u>
         </h3>
-
-        <carousel paginationPosition="bottom-overlay" :perPageCustom="slidePerPageCustom" autoplay="true" loop="true" autoplayTimeout="8000" paginationColor="#000000" paginationActiveColor="#FCFE13">
-            <slide v-for="client in clients" :key="`${client}`">
-                <div class="flex justify-center flex-wrap">
-                <Testimonials :clientName="client.clientName" :companyName="client.companyName" :clientPic="getImgUrl(client.clientPic)" :testimonialText="client.testimonialText" :clientUrl="client.clientUrl" />
-            </div>
-            </slide>
-        </carousel>
-
-
+        <div class="flex justify-center flex-wrap">
+            <Testimonials v-for="client in clients" :key="`${client}`" :clientName="client.clientName" :companyName="client.companyName" :clientPic="getImgUrl(client.clientPic)" :testimonialText="client.testimonialText"
+                :clientUrl="client.clientUrl" />
+        </div>
     </div>
 </Layout>
 </template>
 
 <script>
+
 import Logo from '@/components/Logo'
 import Testimonials from '@/components/Testimonials'
 import {
@@ -170,22 +165,22 @@ export default {
                     clientName: "Jeremy Ravenel",
                     companyName: "CashStory",
                     clientPic: "superman.svg",
-                    testimonialText: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores deserunt ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis pariatur minus consequuntur!",
+                    testimonialText: "Professional yet friendly with abundance of knowledge when it comes to working on projects for Automation & Machine Learning.",
                     clientUrl: "https://cashstory.com/"
                 },
                 {
                     clientName: "Deepali Vandana",
                     companyName: "Urja",
                     clientPic: "superwoman.svg",
-                    testimonialText: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores deserunt ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis pariatur minus consequuntur!",
-                    clientUrl: "",
+                    testimonialText: "If you are an NGO then they are the recommended ones to go for all your IT needs. Helpful and punctual.",
+                    clientUrl: "https://www.urjatrust.org/",
                 },
                 {
                     clientName: "Chandan Kumar",
                     companyName: "Working Peoples' Charter",
                     clientPic: "superman.svg",
-                    testimonialText: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores deserunt ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis pariatur minus consequuntur!",
-                    clientUrl: "",
+                    testimonialText: "Always ready to go out of the way to help us with building a strong web foundation for our organization.",
+                    clientUrl: "http://workingpeoplescharter.in/",
                 }
             ]
         }
@@ -202,7 +197,8 @@ export default {
         GithubIcon,
         GitlabIcon,
         LinkedinIcon,
-        Testimonials
+        Testimonials,
+        
     },
 
     metaInfo() {
