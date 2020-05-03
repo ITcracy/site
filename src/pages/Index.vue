@@ -198,12 +198,12 @@ export default {
         GitlabIcon,
         LinkedinIcon,
         Testimonials,
-        
+
     },
 
     metaInfo() {
         const title = 'Automation for everyone'
-        const description = 'Process automation, Website development, Web Application, Custom software.'
+        const description = 'Process automation, Website development, Web Application, Custom software, Training.'
 
         return {
             title: title,

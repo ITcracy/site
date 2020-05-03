@@ -1,5 +1,5 @@
 ---
-description: ''
+description: 'Python Developers, Software Developers, Automation Solution Experts, Application Developers'
 sidebar: 'about'
 next: '/about/automation/'
 ---

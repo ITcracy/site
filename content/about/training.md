@@ -1,5 +1,5 @@
 ---
-description: ''
+description: 'Python Training, Education, Software Upskilling, Corporate Training, Students & Faculty Workshops'
 sidebar: 'about'
 prev: '/about/apps-development/'
 ---

@@ -1,5 +1,5 @@
 ---
-description: ''
+description: 'Automation, Business Process Automation, Custom Softwares, Automated Solutions.'
 sidebar: 'about'
 prev: '/about/'
 next: '/about/apps-development/'
