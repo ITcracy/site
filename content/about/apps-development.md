@@ -1,5 +1,5 @@
 ---
-description: ''
+description: 'Web Applications, Website Development, Android & ios Apps'
 sidebar: 'about'
 prev: '/about/automation/'
 next: '/about/training/'
