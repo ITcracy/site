@@ -59,6 +59,15 @@ module.exports = {
     },
 
     {
+      use: 'gridsome-plugin-gtm',
+      options: {
+        id: (process.env.GTM_ID ? process.env.GTM_ID : 'GTM-TK2KSCJ'),
+        enabled: true,
+        debug: true
+      }
+  },
+
+    {
       use: 'gridsome-plugin-tailwindcss',
       options: {
         tailwindConfig: './tailwind.config.js',
