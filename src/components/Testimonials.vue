@@ -1,7 +1,7 @@
 <template lang="html">
     <div class="lg:w-1/3 md:w-1/3 max-w-sm py-2 px-4 mx-4 bg-ui-primary border-ui-primary shadow-lg rounded-lg my-10">
         <div class="flex justify-center md:justify-end -mt-16">
-            <img class="w-20 h-20 object-cover rounded-full border-2 border-indigo-500" :src="clientPic">
+            <img class="w-20 h-20 object-cover rounded-full border-2 border-indigo-500" :src="clientPic" :alt="companyName">
         </div>
         <div>
             <a v-if="!clientUrl" ><h2 class="text-white text-3xl font-semibold">{{companyName}}</h2></a>
