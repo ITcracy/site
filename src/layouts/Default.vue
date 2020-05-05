@@ -179,7 +179,6 @@ h4 {
 
     a {
         &::before {
-            content: '#';
             margin-left: -1em;
             padding-right: 1em;
             @apply text-ui-primary absolute opacity-0 float-left;

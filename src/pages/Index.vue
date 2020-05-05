@@ -14,7 +14,7 @@
             <h3 class="text-xl font-medium text-center">
                 A team specializing in automation using
                 <br>
-                Python and other sophisticated <span class="text-ui-primary">Free and Open Source Softwares.</span>
+                Python and other sophisticated <a href="https://en.wikipedia.org/wiki/Free_and_open-source_software"> <span class="text-ui-primary">Free and Open Source Softwares.</span> </a>
                 <br>
                 <strong class="text-ui-primary">Got a minute?</strong>
             </h3>

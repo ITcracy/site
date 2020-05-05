@@ -1,3 +1,10 @@
 [build]
   command = "gridsome build"
   publish = "dist/"
+[[headers]]
+  for = "/*"
+  [headers.values]
+	cache-control = '''
+	max-age=3600,
+	no-cache,
+	must-revalidate'''
