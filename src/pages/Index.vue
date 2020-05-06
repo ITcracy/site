@@ -88,7 +88,7 @@
 
         <div class="flex justify-center flex-wrap">
             <div class="w-48 m-4 mx-auto py-2 bg-blue shadow-lg">
-                <img class="mx-auto rounded-full" src="../assets/navin.png" alt="Navin Karkera, Python Programmer" />
+                <img class="mx-auto rounded-full" src="../assets/navin.jpg" alt="Navin Karkera, Python Programmer" />
                 <u>
                     <p class="mx-2 mt-2 text-center text-lg text-ui-primary font-semibold">Navin Karkera</p>
                 </u>
