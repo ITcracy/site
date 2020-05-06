@@ -12,6 +12,8 @@ module.exports = {
   },
   siteUrl: (process.env.SITE_URL ? process.env.SITE_URL : 'https://itcracy.com'),
   settings: {
+    facebook: process.env.URL_FACEBOOK || 'https://www.facebook.com/ITcracy-106034727773892/',
+    instagram: process.env.URL_INSTAGRAM || 'https://www.instagram.com/itcracy',
     gitlab : process.env.URL_GITLAB || 'https://gitlab.com/itcracy',
     github: process.env.URL_GITHUB || 'https://github.com/ITcracy',
     nav: {
@@ -90,8 +92,14 @@ module.exports = {
     {
       use: '@gridsome/plugin-sitemap',
       options: {
+          cacheTime: 3600,
       }
-    }
+  },
+  {
+      use: 'gridsome-plugin-robots',
+      options: {
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
 
   ]
 }
