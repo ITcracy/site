@@ -41,6 +41,9 @@
           <a v-if="settings.gitlab" :href="settings.gitlab" class="sm:ml-3" target="_blank" rel="noopener noreferrer" title="Gitlab" name="Gitlab">
             <GitlabIcon size="1.5x" />
           </a>
+          <a v-if="settings.facebook" :href="settings.facebook" class="sm:ml-3" target="_blank" rel="noopener noreferrer" title="Facebook" name="Facebook">
+            <FacebookIcon size="1.5x" />
+          </a>
           <a v-if="settings.instagram" :href="settings.instagram" class="sm:ml-3" target="_blank" rel="noopener noreferrer" title="Instagram" name="Instagram">
             <InstagramIcon size="1.5x" />
           </a>
@@ -65,6 +68,7 @@ query {
     settings {
       github
       gitlab
+      facebook
       instagram
       nav {
         links {
@@ -80,7 +84,7 @@ query {
 <script>
 import ToggleDarkMode from "@/components/ToggleDarkMode";
 import Logo from '@/components/Logo';
-import { SunIcon, MoonIcon, GithubIcon, GitlabIcon, InstagramIcon } from "vue-feather-icons";
+import { SunIcon, MoonIcon, GithubIcon, GitlabIcon, FacebookIcon, InstagramIcon } from "vue-feather-icons";
 
 const Search = () => import(/* webpackChunkName: "search" */ "@/components/Search").catch(error => console.warn(error));
 
@@ -93,6 +97,7 @@ export default {
     MoonIcon,
     GithubIcon,
     GitlabIcon,
+    FacebookIcon,
     InstagramIcon,
 
   },
