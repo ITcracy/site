@@ -8,3 +8,4 @@ dist
 .env
 .env.*
 .idea/*
+package-lock.json
