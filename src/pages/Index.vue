@@ -8,11 +8,17 @@
                     ITcracy
                 </h2>
             </div>
-            <h3 class="text-2xl text-center lg:text-3xl">
-                Automation for everyone
+            <h3 class="text-xl text-center lg:text-2xl">
+                A team specializing in
             </h3>
-            <h3 class="text-xl font-medium text-center">
-                A team specializing in automation using
+            <vue-typed-js :strings="['Process Automation', 'Developing Applications', 'Building Websites', 'Imparting Knowledge']" :typeSpeed="100" :backDelay="2000" :loop="true">
+                <h3 class="text-2xl text-center lg:text-3xl">
+                    <span class="typing"></span>
+                </h3>
+            </vue-typed-js>
+
+            <h3 class="text-xl text-center lg:text-2xl">
+                 using
                 <br>
                 Python and other sophisticated <a href="https://en.wikipedia.org/wiki/Free_and_open-source_software"> <span class="text-ui-primary">Free and Open Source Softwares.</span> </a>
                 <br>
