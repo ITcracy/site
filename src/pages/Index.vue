@@ -11,7 +11,7 @@
             <h3 class="text-xl text-center lg:text-2xl">
                 A team specializing in
             </h3>
-            <vue-typed-js :strings="['Process Automation', 'Developing Applications', 'Building Websites', 'Imparting Knowledge']" :typeSpeed="100" :backDelay="2000" :loop="true">
+            <vue-typed-js :strings="['Process Automation', 'Developing Applications', 'Building Websites', 'Imparting Knowledge']" :typeSpeed="100" :backDelay="1000" :loop="true">
                 <h3 class="text-2xl text-center lg:text-3xl">
                     <span class="typing"></span>
                 </h3>
@@ -209,7 +209,7 @@ export default {
 
     metaInfo() {
         const title = 'Automation for everyone'
-        const description = 'Process automation, Website development, Web Application, Custom software, Training.'
+        const description = 'Process automation, Website development, Application Development, Training, Custom software.'
 
         return {
             title: title,
