@@ -6,14 +6,10 @@ next: '/about/automation/'
 
 # About us
 
-</br>
-</br>
+>We are a team of expert Python Developers with experience in automating processes as well as web application development.
 
 ![About](../../src/assets/about_hero.svg)
 
-</br>
-</br>
-We are a team of expert Python Developers with experience in automating processes as well as web application development.
 
 
 
@@ -39,7 +35,7 @@ We are a team of expert Python Developers with experience in automating processe
 ![Automation](../../src/assets/about_automation.svg)
 
 
-With 11+ years of experience in Python, we can automate any process and save your time and cost.
+With **11+ years** of experience in Python, we can automate any process and save your time and cost.
 
 > We automate processes using [Python](https://www.python.org/) which is a free and open source     language to build robust high quality softwares.
 
