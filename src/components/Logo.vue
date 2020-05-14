@@ -439,7 +439,7 @@
     AAAASUVORK5CYII=
     "
            style="image-rendering:optimizeQuality"
-           preserveAspectRatio="true"
+           
            width="70" height="85" />
       </g>
     </svg>
