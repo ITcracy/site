@@ -137,7 +137,7 @@
             <u class="text-ui-primary">What people say about us</u>
         </h3>
         <div class="flex justify-center flex-wrap">
-            <Testimonials v-for="client in clients" :key="`${client}`" :clientName="client.clientName" :companyName="client.companyName" :clientPic="getImgUrl(client.clientPic)" :testimonialText="client.testimonialText"
+            <Testimonials v-for="client in clients" :key="`${client.clientName}`" :clientName="client.clientName" :companyName="client.companyName" :clientPic="getImgUrl(client.clientPic)" :testimonialText="client.testimonialText"
                 :clientUrl="client.clientUrl" />
         </div>
     </div>
@@ -163,15 +163,11 @@ import {
 export default {
     data() {
         return {
-            slidePerPageCustom: [
-                [200, 1],
-                [1199, 2]
-            ],
             clients: [{
                     clientName: "Jeremy Ravenel",
                     companyName: "CashStory",
-                    clientPic: "superman.svg",
-                    testimonialText: "Professional yet friendly with abundance of knowledge when it comes to working on projects for Automation & Machine Learning.",
+                    clientPic: "jeremy_cashstory.jpg",
+                    testimonialText: "ITcracy is  the long term partner we needed, our join forces makes our end user's business life easier and more efficient.",
                     clientUrl: "https://cashstory.com/"
                 },
                 {
@@ -195,7 +191,6 @@ export default {
         Logo,
         ArrowRightCircleIcon,
         BarChart2Icon,
-        CodeIcon,
         PenToolIcon,
         CodeIcon,
         MailIcon,
