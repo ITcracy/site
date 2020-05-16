@@ -16,6 +16,7 @@ module.exports = {
     instagram: process.env.URL_INSTAGRAM || 'https://www.instagram.com/itcracy',
     gitlab : process.env.URL_GITLAB || 'https://gitlab.com/itcracy',
     github: process.env.URL_GITHUB || 'https://github.com/ITcracy',
+    youtube: process.env.URL_YOUTUBE || 'https://www.youtube.com/channel/UC6_qlLt9q-o3K5E0Un6eCYw',
     nav: {
       links: [
         { path: '/about/', title: 'About' }
@@ -38,9 +39,16 @@ module.exports = {
               '/about/apps-development/',
               '/about/training/'
             ]
+          },
+          {
+            title: 'Demo',
+            items: [
+              '/demo/workflow/',
+              '/demo/automation/'
+            ]
           }
         ]
-      }
+      },
     ]
   },
   plugins: [
