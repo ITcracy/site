@@ -8,12 +8,18 @@ next: '/about/automation/'
 
 >We are a team of expert Python Developers with experience in automating processes as well as web application development.
 
+
+
 ![About](../../src/assets/about_hero.svg)
 
+>Experience in organizations ranging from startups to multinational companies
+
+>From basic workflow to complex business process, we can automate it.
+
+</br>
 
 
-
-## Our development stack
+### Our development stack
 
 ```python
 "Python": Backend,
