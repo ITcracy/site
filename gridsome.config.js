@@ -44,7 +44,7 @@ module.exports = {
             title: 'Demo',
             items: [
               '/demo/workflow/',
-              '/demo/automation/'
+              '/demo/data-extraction/'
             ]
           }
         ]

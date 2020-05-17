@@ -1,7 +1,7 @@
 ---
 description: 'Automation, Business Process Automation, Custom Softwares, Automated Solutions.'
 sidebar: 'about'
-next: '/demo/automation/'
+next: '/demo/data-extraction/'
 ---
 
 # Simple Workflow Demo
@@ -17,7 +17,7 @@ A simple workflow demo of report generation using `Python` and `Prefect`.
 This is an example of automating a process of combining 100 comma separated files,  generating a single spreadsheet while filtering over Country and sending the generated report over email
 
 
-### Requirement
+### Client Requirement
 
 - 100 comma separated files scattered in a directory
 - Combine all reports
