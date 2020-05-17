@@ -34,7 +34,10 @@
             </div>
 
             <p class="mt-8 text-center">
-                Fast, Easy and <span class="border-b border-dashed border-ui-primary text-ui-primary">Cost Effective</span>.
+                <g-link to="/demo/workflow/"
+                    class="flex items-center font-bold leading-none rounded-lg shadow-lg transition-all duration-200 ease-out transform hover:shadow-xl hover:-translate-y-1">
+                    <span class="border-b border-dashed border-ui-primary text-ui-primary">Watch our example videos </span>
+                </g-link>
             </p>
 
         </div>
