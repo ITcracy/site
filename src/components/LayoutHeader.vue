@@ -32,7 +32,7 @@
         <a v-if="settings.gitlab" :href="settings.gitlab" class="sm:ml-3" target="_blank" rel="noopener noreferrer" title="Gitlab" name="Gitlab">
           <GitlabIcon size="1.5x" />
         </a>
-        <a v-if="settings.youtube" :href="settings.youtube" class="sm:ml-3" target="_blank" rel="noopener noreferrer" title="Gitlab" name="YouTube">
+        <a v-if="settings.youtube" :href="settings.youtube" class="sm:ml-3" target="_blank" rel="noopener noreferrer" title="YouTube" name="YouTube">
           <YoutubeIcon size="1.5x" />
         </a>
         <a v-if="settings.facebook" :href="settings.facebook" class="sm:ml-3" target="_blank" rel="noopener noreferrer" title="Facebook" name="Facebook">
