@@ -116,22 +116,22 @@ export default {
       meta: [{
           key: 'og:type',
           name: 'og:type',
-          content: 'website'
+          content: 'Process automation, Website development, Application Development, Training, Custom software.'
         },
         {
           key: 'twitter:card',
           name: 'twitter:card',
-          content: 'summary_large_image'
+          content: 'Process automation, Website development, Application Development, Training, Custom software.'
         },
         {
           key: 'og:image',
           name: 'og:image',
-          content: process.env.SITE_URL + '/logo.jpg'
+          content: process.env.SITE_URL + '/itcracy_logo.jpg'
         },
         {
           key: 'twitter:image',
           name: 'twitter:image',
-          content: process.env.SITE_URL + '/logo.jpg'
+          content: process.env.SITE_URL + '/itcracy_logo.jpg'
         }
       ]
     }
