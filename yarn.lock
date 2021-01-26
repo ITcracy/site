@@ -876,10 +876,28 @@
     postcss "7.0.32"
     purgecss "^2.3.0"
 
-"@gridsome/cli@^0.3.2", "@gridsome/cli@^0.3.3":
+"@gridsome/cli@^0.3.3":
   version "0.3.3"
   resolved "https://registry.yarnpkg.com/@gridsome/cli/-/cli-0.3.3.tgz#f6a315de2939b1b2f75c6ab21bbcfbc8287de564"
   integrity sha512-V4rWk4ahUelfQHiSdKWK/ABrZwbGYo9PENI2I9Xv3JTXNYfgYIlhJrKVQyPjx+qDyrkejzrmVcMzIVzgraKFEw==
+  dependencies:
+    "@hjvedvik/tasks" "^0.0.8"
+    chalk "^2.4.1"
+    commander "^2.15.1"
+    envinfo "^7.3.1"
+    execa "^0.10.0"
+    find-up "^2.1.0"
+    fs-extra "^6.0.1"
+    leven "^3.1.0"
+    resolve-cwd "^2.0.0"
+    semver "^5.6.0"
+    sort-package-json "^1.15.0"
+    update-notifier "^4.1.0"
+
+"@gridsome/cli@^0.3.4":
+  version "0.3.4"
+  resolved "https://registry.yarnpkg.com/@gridsome/cli/-/cli-0.3.4.tgz#42fa7a4368a80bd04ec497c93cae5a66b041fe22"
+  integrity sha512-KkfnDs3aDRdNapxS5QwCUDUzNJgc+uRExw5IRUrVn38zOdmJc0d8hFqHZ7GpcHEX1W0BVyUsa4sQ3LNyjlttsg==
   dependencies:
     "@hjvedvik/tasks" "^0.0.8"
     chalk "^2.4.1"
@@ -1886,9 +1904,9 @@ bindings@^1.5.0:
     file-uri-to-path "1.0.0"
 
 bl@^1.0.0:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/bl/-/bl-1.2.2.tgz#a160911717103c07410cef63ef51b397c025af9c"
-  integrity sha512-e8tQYnZodmebYDWGH7KMRvtzKXaJHx3BbilrgZCfvyLUYdKpK1t5PSPmpkny/SgiTSCnjfLW7v5rlONXVFkQEA==
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/bl/-/bl-1.2.3.tgz#1e8dd80142eac80d7158c9dccc047fb620e035e7"
+  integrity sha512-pvcNpa0UU69UT341rO6AYy4FVAIkUHuZXRIWbq+zHnsVcRzDDjIAhGuuYoi0d//cwIwtt4pkpKycWEfjdV+vww==
   dependencies:
     readable-stream "^2.3.5"
     safe-buffer "^5.1.1"
