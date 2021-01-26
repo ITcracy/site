@@ -22,11 +22,11 @@ next: '/about/automation/'
 ### Our development stack
 
 ```python
-"Python": Backend,
-"Vue": Frontend,
+"Python/Rust": Backend,
+"Vue/React": Frontend,
 "Postgresql": Database,
 "Docker": Deployment Environment,
-"Prefect": Workflow,
+"Prefect/Airflow": Workflow,
 "And many more depending on requirement"
 ```
 
@@ -41,7 +41,7 @@ next: '/about/automation/'
 ![Automation](../../src/assets/about_automation.svg)
 
 
-With **11+ years** of experience in Python, we can automate any process and save your time and cost.
+With **12+ years** of experience in Python, we can automate any process and save your time and cost.
 
 > We automate processes using [Python](https://www.python.org/) which is a free and open source     language to build robust high quality softwares.
 

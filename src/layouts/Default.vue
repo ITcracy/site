@@ -56,6 +56,7 @@
 query {
   metadata {
     siteName
+    siteUrl
   }
 }
 </static-query>
@@ -106,7 +107,7 @@ export default {
     },
     hasSidebar() {
       return this.$page && this.headerHeight > 0
-    }
+    },
   },
   mounted() {
     this.setHeaderHeight()
@@ -126,12 +127,12 @@ export default {
         {
           key: 'og:image',
           name: 'og:image',
-          content: process.env.SITE_URL + '/itcracy_logo.jpg'
+          content: this.$static.metadata.siteUrl + '/itcracy_logo.svg'
         },
         {
           key: 'twitter:image',
           name: 'twitter:image',
-          content: process.env.SITE_URL + '/itcracy_logo.jpg'
+          content: this.$static.metadata.siteUrl + '/itcracy_logo.svg'
         }
       ]
     }
