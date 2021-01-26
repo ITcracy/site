@@ -117,7 +117,7 @@ export default {
       meta: [{
           key: 'og:type',
           name: 'og:type',
-          content: 'Process automation, Website development, Application Development, Training, Custom software.'
+          content: 'website'
         },
         {
           key: 'twitter:card',
