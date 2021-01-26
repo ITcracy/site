@@ -22,11 +22,13 @@ next: '/about/automation/'
 ### Our development stack
 
 ```python
+
 "Python/Rust": Backend,
 "Vue/React": Frontend,
 "Postgresql": Database,
 "Docker": Deployment Environment,
 "Prefect/Airflow": Workflow,
+
 "And many more depending on requirement"
 ```
 
