@@ -62,10 +62,13 @@ export default {
       }
 
       // Clear the current observer.
-      this.observer.disconnect();
+      if (this.observer){
 
-      // And create another one for the next page.
-      this.$nextTick(this.initObserver);
+          this.observer.disconnect();
+          // And create another one for the next page.
+          this.$nextTick(this.initObserver);
+      }
+
     }
   },
 
