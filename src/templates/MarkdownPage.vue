@@ -18,6 +18,14 @@
 </Layout>
 </template>
 
+<static-query>
+query {
+  metadata {
+    siteName
+    siteUrl
+  }
+}
+</static-query>
 <page-query>
 query ($id: ID!) {
   markdownPage(id: $id) {
@@ -64,23 +72,47 @@ export default {
     return {
       title: title,
       meta: [{
+          key: 'description',
           name: 'description',
           content: description
         },
         {
+          key: 'og:type', 
+          property: 'og:type', 
+          content: 'article' 
+        },
+        {
           key: 'og:title',
-          name: 'og:title',
+          property: 'og:title',
           content: title,
+        },
+        {
+          key: 'og:description',
+          property: 'og:description',
+          content: description,
+        },
+        {
+          key: 'og:image',
+          property: 'og:image',
+          content: this.$static.metadata.siteUrl + '/itcracy_logo.svg'
+        },
+
+
+
+        {
+          key: 'twitter:image',
+          name: 'twitter:image',
+          content: this.$static.metadata.siteUrl + '/itcracy_logo.svg'
+        },
+        {
+          key: 'twitter:card',
+          name: 'twitter:card',
+          content: 'summary_large_image'
         },
         {
           key: 'twitter:title',
           name: 'twitter:title',
           content: title,
-        },
-        {
-          key: 'og:description',
-          name: 'og:description',
-          content: description,
         },
         {
           key: 'twitter:description',

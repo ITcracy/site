@@ -11,7 +11,7 @@ export default function(Vue, { router, head, isClient }) {
   router.beforeEach((to, _from, next) => {
     head.meta.push({
       key: "og:url",
-      name: "og:url",
+      property: "og:url",
       content: "https://itcracy.com" + to.path,
     });
     next();

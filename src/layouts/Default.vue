@@ -116,17 +116,17 @@ export default {
     return {
       meta: [{
           key: 'og:type',
-          name: 'og:type',
+          property: 'og:type',
           content: 'website'
         },
         {
           key: 'twitter:card',
           name: 'twitter:card',
-          content: 'Process automation, Website development, Application Development, Training, Custom software.'
+          content: 'summary_large_image'
         },
         {
           key: 'og:image',
-          name: 'og:image',
+          property: 'og:image',
           content: this.$static.metadata.siteUrl + '/itcracy_logo.svg'
         },
         {

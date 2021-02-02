@@ -212,29 +212,43 @@ export default {
         return {
             title: title,
             meta: [{
+                    key: 'description',
                     name: 'description',
                     content: description
-                },
-                {
-                    key: 'og:title',
-                    name: 'og:title',
-                    content: title
-                },
-                {
-                    key: 'twitter:title',
-                    name: 'twitter:title',
-                    content: title
-                },
-                {
-                    key: 'og:description',
-                    name: 'og:description',
-                    content: description
-                },
-                {
-                    key: 'twitter:description',
-                    name: 'twitter:description',
-                    content: description
-                }
+            },
+            {
+              key: 'og:type', 
+              property: 'og:type', 
+              content: 'article' 
+            },
+            {
+              key: 'og:title',
+              property: 'og:title',
+              content: title,
+            },
+            {
+              key: 'og:description',
+              property: 'og:description',
+              content: description,
+            },
+
+
+
+            {
+              key: 'twitter:card',
+              name: 'twitter:card',
+              content: 'summary_large_image'
+            },
+            {
+              key: 'twitter:title',
+              name: 'twitter:title',
+              content: title,
+            },
+            {
+              key: 'twitter:description',
+              name: 'twitter:description',
+              content: description,
+            },
             ]
         }
     },
