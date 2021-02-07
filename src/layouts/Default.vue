@@ -127,12 +127,12 @@ export default {
         {
           key: 'og:image',
           property: 'og:image',
-          content: this.$static.metadata.siteUrl + '/itcracy_logo.svg'
+          content: this.$static.metadata.siteUrl + '/itcracy_logo.png'
         },
         {
           key: 'twitter:image',
           name: 'twitter:image',
-          content: this.$static.metadata.siteUrl + '/itcracy_logo.svg'
+          content: this.$static.metadata.siteUrl + '/itcracy_logo.png'
         }
       ]
     }
