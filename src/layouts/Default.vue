@@ -127,12 +127,12 @@ export default {
         {
           key: 'og:image',
           property: 'og:image',
-          content: this.$static.metadata.siteUrl + '/itcracy_logo.svg'
+          content: this.$static.metadata.siteUrl + '/itcracy_logo.png'
         },
         {
           key: 'twitter:image',
           name: 'twitter:image',
-          content: this.$static.metadata.siteUrl + '/itcracy_logo.svg'
+          content: this.$static.metadata.siteUrl + '/itcracy_logo.png'
         }
       ]
     }
@@ -284,6 +284,7 @@ code {
 }
 
 pre[class*='language-'] {
+    @apply whitespace-pre-wrap ; 
     @apply max-w-full overflow-x-auto rounded;
 
     & + p {
@@ -291,6 +292,7 @@ pre[class*='language-'] {
     }
 
     & > code[class*='language-'] {
+        @apply whitespace-pre-wrap ; 
         @apply border-none leading-relaxed;
     }
 }
